@@ -5,7 +5,7 @@
   "scripts": {
     "pretest": "webdriver-manager update",
     "test": "protractor test/e2e/protractor.conf.js",
-    "start": "ws -d app"
+    "start": "ws -d app &"
   },
   "dependencies": {
     "local-web-server": "2.3.0"
