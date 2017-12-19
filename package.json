@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "pretest": "webdriver-manager update",
+    "pretest": "webdriver-manager update --gecko false",
     "test": "protractor test/e2e/protractor.conf.js",
     "start": "ws -d app &"
   },
