@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "debug": "~2.6.3",
+    "jasmine-spec-reporter": "^4.2.1",
     "protractor": ">=5.1.2"
   }
 }

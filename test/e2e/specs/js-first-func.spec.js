@@ -9,7 +9,7 @@ describe('running JS: firstFunc()', () => {
         // browser.sleep(60000);
     });
 
-    it("can be validated via coverage", async () => {
+    it("can be tested", async () => {
         const jsButton = element(by.id('js-button-1'));
         await jsButton.click();
     });
